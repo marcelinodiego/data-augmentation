@@ -8,12 +8,15 @@ Esse projeto foi desenvolvido para explorar as técnicas de aumento de dados com
 
 - Finalizado :chart:
 
-# Funcionalidades do projeto
+# Como usar
 
-# Tecnologias utilizadas
+
+
+# Tecnologias
 
 As seguintes ferramentas foram utilizadas na construção desse projeto:
 
+- [Python](https://www.python.org/)
 - [TensorFlow](https://www.tensorflow.org/install?hl=pt-br)
 - [Keras](https://keras.io/)
 - [Skimage](https://scikit-image.org/docs/stable/install.html)
@@ -21,5 +24,5 @@ As seguintes ferramentas foram utilizadas na construção desse projeto:
 - [OpenCV](https://pypi.org/project/opencv-python/)
 
 # Autor
-- [Diêgo Marcelino Santoz Silva](https://github.com/marcelinodiego)
-- [![Gmail Badge](https://img.shields.io/badge/-marcelinodiego@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=diego:marcelinodiego@gmail.com)](diego:marcelinodiego@gmail.com)
+- [Diêgo Marcelino Santos Silva](https://github.com/marcelinodiego)
+- [![Gmail Badge]](diego:marcelinodiego17@gmail.com)
