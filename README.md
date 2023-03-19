@@ -6,7 +6,7 @@ Esse projeto foi desenvolvido para explorar as técnicas de aumento de dados com
 
 # Status do projeto
 
-Finalizado :chart:
+- Finalizado :chart:
 
 # Funcionalidades do projeto
 
@@ -19,5 +19,7 @@ As seguintes ferramentas foram utilizadas na construção desse projeto:
 - [Skimage](https://scikit-image.org/docs/stable/install.html)
 - [OS](https://www.python.org/)
 - [OpenCV](https://pypi.org/project/opencv-python/)
-- 
+
 # Autor
+- [Diêgo Marcelino Santoz Silva](https://github.com/marcelinodiego)
+- [![Gmail Badge](https://img.shields.io/badge/-marcelinodiego@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=diego:marcelinodiego@gmail.com)](diego:marcelinodiego@gmail.com)
