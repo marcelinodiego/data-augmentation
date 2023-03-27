@@ -1,5 +1,17 @@
 # UM ESTUDO SOBRE DIFERENTES APLICAÇÕES DAS TÉCNICAS DE DATA AUGMENTATION PARA UM CONJUNTO DE DADOS LIMITADO
 
+Tabela de conteúdos
+=================
+<!--ts-->
+   * [Tabela de Conteudo](#tabela-de-conteudo)
+   * [Descrição do Projeto](#descricao-do-projeto)
+   * [Status do projeto](#status-do-projeto)
+   * [Como usar](#como-usar)
+   * [Teste](#testes)
+   * [Tecnologias](#tecnologias)
+   * [Autor](#autor)
+<!--te-->
+
 # Descrição do projeto
 
 Esse projeto foi desenvolvido para explorar as técnicas de aumento de dados como uma alternativa para solucionar o problema da limitação dos dados, seja pela pouca quantidade de exemplos disponíveis, falta de profissionais capacitados para rotulagem ou necessidade de autorização para seu uso. O algoritmo recebe como entrada um conjunto de dados composto por imagens no formato PNG(Portable Network Graphics), executa os métodos de aumento para cada imagem que compõe o banco e retorna um conjunto de dados expandido.   
@@ -10,7 +22,7 @@ Esse projeto foi desenvolvido para explorar as técnicas de aumento de dados com
 
 # Como usar
 
-Considerando que já tenha instalado as dependências da seção [Tecnologias](tec) .Esse projeto é composto por duas funções 'PadronizacaoFormato' e 'main'.
+Considerando que já tenha instalado as dependências da seção [Tecnologias](#tecnologias) .Esse projeto é composto por duas funções 'PadronizacaoFormato' e 'main'.
 
 PadronizacaoFormato -  Função auxiliar responsável por converter o formato das imagens para PNG(Portable Network Graphics), caso não estejam nele.
 
