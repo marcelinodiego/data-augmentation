@@ -8,7 +8,10 @@ Tabela de conteúdos
    * [Status do projeto](#status-do-projeto)
    * [Como usar](#como-usar)
    * [Métodos de Aumento Aplicados e Demonstração](#metodos-aplicados)
+      * [Métodos de aumento](#metodos-de-aumento)
+      * [Demonstração](#demonstração)
    * [Tecnologias](#tecnologias)
+   * [Conclusão](#conclusão)
    * [Autor](#autor)
 <!--te-->
 
@@ -22,7 +25,7 @@ Esse projeto foi desenvolvido para explorar as técnicas de aumento de dados com
 
 # Como usar
 
-Considerando que já tenha instalado as dependências da seção (#tecnologias) .Esse projeto é composto por duas funções 'PadronizacaoFormato' e 'main'.
+Considerando que já tenha instalado as dependências da seção [Tecnologias](#tecnologias) .Esse projeto é composto por duas funções 'PadronizacaoFormato' e 'main'.
 
 PadronizacaoFormato -  Função auxiliar responsável por converter o formato das imagens para PNG(Portable Network Graphics), caso não estejam nele.
 
