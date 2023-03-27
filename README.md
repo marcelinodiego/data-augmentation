@@ -10,6 +10,20 @@ Esse projeto foi desenvolvido para explorar as técnicas de aumento de dados com
 
 # Como usar
 
+Esse projeto é composto por duas funções 'PadronizacaoFormato' e 'main'.
+
+PadronizacaoFormato -  Função auxiliar responsável por converter o formato das imagens para PNG(Portable Network Graphics), caso não estejam nele.
+
+main - Função principal que realiza o aumento de dados propriamente dito.
+
+A função PadronizacaoFormato pode ser executada da seguinte forma:
+- Recebe como entrada imagens que estejam em qualquer formato dentro de uma pasta como nome 'ImagensOriginais';
+- Caso não exista, criar uma pasta com o nome 'ImagensPadronizadas' para receber as imagens com formato modificado. 
+
+A função main possui alguns requisitos e detalhes que precisam ser salientados para sua correta execucação:
+- Recebe imagens apenas no formato PNG;
+- As imagens de entrada precisam estar numa pasta com nome 'ImagensPadronizadas';
+- Caso não exista, criar uma pasta com nome 'aumento_dados' para receber as novas imagens geradas.
 
 
 # Tecnologias
