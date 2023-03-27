@@ -42,18 +42,20 @@ A função main possui alguns requisitos e detalhes que precisam ser salientados
 
 # Métodos de Aumento Aplicados e Teste
 
-# Métodos de aumento
+Esta seção está dividida em dois tópicos, o primeiro é responsável por apresentar as técnicas de aumento utilizadas e alguns esquemas para exemplifica-los. No segundo, temos o resultado da aplicação das técnicas de aumentos pelo algoritmo desta pesquisa para um conjunto de dados limitado.  
+
+## Métodos de aumento
 
 As técnicas de aumento de dados usadas para essa pesquisa são baseadas em transformações geométricas, que permite modificações na forma, tamanho e posição de elementos dentro da imagem, e também transformações fotométricas, que alteram as propriedades das cores na imagem, através de mudanças nos valores dos pixels.
 
-# Translação
+### Translação
 Na translação a imagem é deslocada ao longo do eixo x ou eixo y, permitindo ir para esquerda (b), direita (c), acima (d) ou abaixo (e). 
 
 ![translation](https://user-images.githubusercontent.com/56489559/228076566-3209aec4-d19f-48cd-a32e-33f4be1d3d19.png)
 
 Existem diferentes abordagens para aplicação da translação, pode ocorrer apenas com os deslocamentos citados anteriormente que foi a metodologia aplicada neste trabalho, como também realizar uma combinação entre eles.
 
-# Espelhamento
+### Espelhamento
 Método que realiza espelhamento, girando a imagem em um eixo vertical ou horizontal, movendo linhas e colunas inteiras de pixels. No espelhamento vertical a inversão será no eixo horizontal, sendo (a) à imagem original, temos o resultado dessa manipulação em (b).
 
 ![espelhamento vertical](https://user-images.githubusercontent.com/56489559/228076484-66b66fc9-1a53-4687-8524-0be66c1956a7.png)
@@ -62,13 +64,13 @@ Em relação ao espelhamento horizontal a inversão dos valores de pixels ocorre
 
 ![espelhamento horizontal](https://user-images.githubusercontent.com/56489559/228076447-9da5d55d-0d83-4b87-a631-049c94e57a0b.png)
 
-# Rotação
+### Rotação
 
 Técnica que modifica a imagem fazendo um rotacionamento no sentido horário (b) ou anti-horário (c) em um eixo de 1º e 359º. É importante ressaltar que dependendo do ângulo escolhido pode ocorrer perda de informação, por isso fixamos as modificações em ângulos de 90°.
 
 ![rotação](https://user-images.githubusercontent.com/56489559/228077172-f7242fb5-adf3-48fc-b12d-c364153c0490.png)
 
-# Brilho Aleatório
+### Brilho Aleatório
 
 Rotina responsável por alterar a imagem em diferentes níveis de iluminação, resultando em uma imagem mais clara (b) ou mais escura (c), quando comparado com a original (a).
 
@@ -76,7 +78,7 @@ Rotina responsável por alterar a imagem em diferentes níveis de iluminação, 
 
 Esse método recebe um valor delta para gerar imagens no intervalo fechado (-delta, delta), quanto mais próximo de 1.0 for esse valor, mais brilho receberá a imagem e quanto mais distante de 1.0, mais escura será a imagem.
 
-# Zoom Aleatório
+### Zoom Aleatório
 
 Essa técnica pode ser usada para ampliar ou diminuir a imagem aleatoriamente, nesta pesquisa apenas a ampliação (b) está sendo utilizada. 
 
@@ -84,7 +86,7 @@ Essa técnica pode ser usada para ampliar ou diminuir a imagem aleatoriamente, n
 
 Nesse método os números decimais negativos são responsáveis por realizar a ampliação da imagem, os valores definidos foram -0,2 e -0,4 que se referem a gerar imagens ampliadas no intervalo fechado que varia entre 20\% e 40\%.
 
-# Teste
+## Teste
 
 
 # Tecnologias
