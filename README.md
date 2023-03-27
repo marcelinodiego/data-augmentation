@@ -10,7 +10,7 @@ Esse projeto foi desenvolvido para explorar as técnicas de aumento de dados com
 
 # Como usar
 
-Esse projeto é composto por duas funções 'PadronizacaoFormato' e 'main'.
+Considerando que já tenha instalado as dependências da seção [Tecnologias](tec) .Esse projeto é composto por duas funções 'PadronizacaoFormato' e 'main'.
 
 PadronizacaoFormato -  Função auxiliar responsável por converter o formato das imagens para PNG(Portable Network Graphics), caso não estejam nele.
 
@@ -25,8 +25,9 @@ A função main possui alguns requisitos e detalhes que precisam ser salientados
 - As imagens de entrada precisam estar numa pasta com nome 'ImagensPadronizadas';
 - Caso não exista, criar uma pasta com nome 'aumento_dados' para receber as novas imagens geradas.
 
+# Teste
 
-# Tecnologias
+# Tecnologias(tec)
 
 As seguintes ferramentas foram utilizadas na construção desse projeto:
 
