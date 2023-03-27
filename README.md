@@ -22,7 +22,7 @@ Esse projeto foi desenvolvido para explorar as técnicas de aumento de dados com
 
 # Como usar
 
-Considerando que já tenha instalado as dependências da seção [Tecnologias](#tecnologias) .Esse projeto é composto por duas funções 'PadronizacaoFormato' e 'main'.
+Considerando que já tenha instalado as dependências da seção (#tecnologias) .Esse projeto é composto por duas funções 'PadronizacaoFormato' e 'main'.
 
 PadronizacaoFormato -  Função auxiliar responsável por converter o formato das imagens para PNG(Portable Network Graphics), caso não estejam nele.
 
@@ -39,7 +39,7 @@ A função main possui alguns requisitos e detalhes que precisam ser salientados
 
 # Teste
 
-# Tecnologias(tec)
+# Tecnologias
 
 As seguintes ferramentas foram utilizadas na construção desse projeto:
 
@@ -52,4 +52,3 @@ As seguintes ferramentas foram utilizadas na construção desse projeto:
 
 # Autor
 - [Diêgo Marcelino Santos Silva](https://github.com/marcelinodiego)
-- [![Gmail Badge]](diego:marcelinodiego17@gmail.com)
