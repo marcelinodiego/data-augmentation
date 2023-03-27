@@ -7,7 +7,7 @@ Tabela de conteúdos
    * [Descrição do Projeto](#descricao-do-projeto)
    * [Status do projeto](#status-do-projeto)
    * [Como usar](#como-usar)
-   * [Teste](#testes)
+   * [Métodos de Aumento Aplicados e Demonstração](#metodos-aplicados)
    * [Tecnologias](#tecnologias)
    * [Autor](#autor)
 <!--te-->
@@ -37,7 +37,7 @@ A função main possui alguns requisitos e detalhes que precisam ser salientados
 - As imagens de entrada precisam estar numa pasta com nome 'ImagensPadronizadas';
 - Caso não exista, criar uma pasta com nome 'aumento_dados' para receber as novas imagens geradas.
 
-# Teste
+# Métodos de Aumento Aplicados e Demonstração
 
 # Tecnologias
 
@@ -49,6 +49,8 @@ As seguintes ferramentas foram utilizadas na construção desse projeto:
 - [Skimage](https://scikit-image.org/docs/stable/install.html)
 - [OS](https://www.python.org/)
 - [OpenCV](https://pypi.org/project/opencv-python/)
+
+# Conclusão
 
 # Autor
 - [Diêgo Marcelino Santos Silva](https://github.com/marcelinodiego)
