@@ -9,7 +9,7 @@ Tabela de Conteúdos
    * [Descrição do Projeto](#descricao-do-projeto)
    * [Status do Projeto](#status-do-projeto)
    * [Como usar](#como-usar)
-   * [Métodos de Aumento Aplicados e Teste](#metodos-aplicados)
+   * [Métodos de Aumento Aplicados e Teste](#metodos-de-aumento-aplicados-e-teste)
       * [Métodos de Aumento](#metodos-de-aumento)
       * [Teste](#teste)
    * [Tecnologias](#tecnologias)
@@ -127,7 +127,20 @@ Logo abaixo está uma figura como uma amostra dos dados de entrada para realiza�
     <img src="https://user-images.githubusercontent.com/56489559/228130976-3300843e-ee56-4415-b14a-6a895aa121bd.png"width="500px"
 </p>
 
-É importante ressaltar que 
+Também é importante salientar que a forma como o algoritmo foi estruturado é possível conhecer o tamanho do conjunto final antes da execução, basta substituir a variável N, que representa o tamanho do banco de dados original na fórmula abaixo: 
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/56489559/228386437-a61e585f-9a77-4390-ae76-eefbd72d7ab5.png"width="500px"
+</p>
+
+<p align="justify">
+No qual, o número inteiro 8 está associado com a variável N pelo fato de alguns métodos de aumento serem aplicados mais de uma vez, por exemplo, o espelhamento é feito de maneira horizontal e vertical, algo semelhante ocorre com os métodos de rotação e translação. Enquanto, o segundo termo N se refere aos dados originais, sem qualquer aumento que são anexadas ao conjunto final. Por fim, para o teste realizado nesssa pesquisa, temos aplicação do valor que corresponde a quantidade de dados no conjunto inicial na fórmula:
+</p>
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/56489559/228386200-46883280-e114-406b-830a-181f0b0777c7.png"width="500px"
+</p>
+
+A importância de determinar previamente a quantidade de dados no conjunto final é principalmente por questões de armazenamento, dependendo do tamanho no conjunto inicial talvez não seja viável guardar todos os dados gerados para posteriomente realizar o treinamento, logo isso envolverá decisões se o aumento deverá se feito de modo online ou offline, de acordo com a viabilidade.
 
 # Tecnologias
 
