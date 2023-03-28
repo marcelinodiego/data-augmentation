@@ -17,7 +17,9 @@ Tabela de Conteúdos
 
 # Descrição do Projeto
 
+<p align="justify">
 Esse projeto foi desenvolvido para explorar as técnicas de aumento de dados como uma alternativa para solucionar o problema da limitação dos dados, seja pela pouca quantidade de exemplos disponíveis, falta de profissionais capacitados para rotulagem ou necessidade de autorização para seu uso. O algoritmo recebe como entrada um conjunto de dados composto por imagens no formato PNG(Portable Network Graphics), executa os métodos de aumento para cada imagem que compõe o banco e retorna um conjunto de dados expandido.   
+</p>
 
 # Status do Projeto
 
@@ -114,9 +116,9 @@ As seguintes ferramentas foram utilizadas na construção desse projeto:
 - [OpenCV](https://pypi.org/project/opencv-python/)
 
 # Conclusão
-
+<p align="justify">
 Neste estudo, foi proposto a exploração de métodos que realizam o aumento sintético de dados em um conjunto limitado composto por imagens microscópicas de sangue. Nosso experimento aumentou a quantidade de dados no conjunto de 558 imagens para 5022 imagens. Deixamos como trabalhos futuros a adição de mais métodos de \emph{Data Augmentation} como filtro gaussiano e contraste aleatório, para aumentar a variedade dos dados. Também a implementação de uma rede neural convolucional para identificação de células cancerígenas no conjunto de dados produzido nessa pesquisa, avaliar o impacto do aumento de dados em um ambiente com restrição de dados e comparar os resultados alcançados com trabalhos semelhantes encontrados na literatura. 
-
+</p>
 
 # Autor
 - [Diêgo Marcelino Santos Silva](https://github.com/marcelinodiego)
