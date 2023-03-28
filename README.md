@@ -54,25 +54,30 @@ Na translação a imagem é deslocada ao longo do eixo x ou eixo y, permitindo i
 <p align="center">
     <img src="https://user-images.githubusercontent.com/56489559/228076566-3209aec4-d19f-48cd-a32e-33f4be1d3d19.png"width="500px"
 </p>
- 
-![translation](https://user-images.githubusercontent.com/56489559/228076566-3209aec4-d19f-48cd-a32e-33f4be1d3d19.png)
 
 Existem diferentes abordagens para aplicação da translação, pode ocorrer apenas com os deslocamentos citados anteriormente que foi a metodologia aplicada neste trabalho, como também realizar uma combinação entre eles.
 
+  
 ### Espelhamento
 Método que realiza espelhamento, girando a imagem em um eixo vertical ou horizontal, movendo linhas e colunas inteiras de pixels. No espelhamento vertical a inversão será no eixo horizontal, sendo (a) à imagem original, temos o resultado dessa manipulação em (b).
 
-![espelhamento vertical](https://user-images.githubusercontent.com/56489559/228076484-66b66fc9-1a53-4687-8524-0be66c1956a7.png)
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/56489559/228076484-66b66fc9-1a53-4687-8524-0be66c1956a7.png"width="500px"
+</p>
 
 Em relação ao espelhamento horizontal a inversão dos valores de pixels ocorre no eixo vertical, gerando uma imagem como mostrado abaixo:
 
-![espelhamento horizontal](https://user-images.githubusercontent.com/56489559/228076447-9da5d55d-0d83-4b87-a631-049c94e57a0b.png)
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/56489559/228076447-9da5d55d-0d83-4b87-a631-049c94e57a0b.png"width="500px"
+</p>
 
 ### Rotação
 
 Técnica que modifica a imagem fazendo um rotacionamento no sentido horário (b) ou anti-horário (c) em um eixo de 1º e 359º. É importante ressaltar que dependendo do ângulo escolhido pode ocorrer perda de informação, por isso fixamos as modificações em ângulos de 90°.
-
-![rotação](https://user-images.githubusercontent.com/56489559/228077172-f7242fb5-adf3-48fc-b12d-c364153c0490.png)
+  
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/56489559/228077172-f7242fb5-adf3-48fc-b12d-c364153c0490.png"width="500px"
+</p>
 
 ### Brilho Aleatório
 
