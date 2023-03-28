@@ -1,25 +1,25 @@
 # UM ESTUDO SOBRE DIFERENTES APLICAÇÕES DAS TÉCNICAS DE DATA AUGMENTATION PARA UM CONJUNTO DE DADOS LIMITADO
 
-Tabela de conteúdos
+Tabela de Conteúdos
 =================
 <!--ts-->
-   * [Tabela de Conteudo](#tabela-de-conteudo)
+   * [Tabela de Conteúdos](#tabela-de-conteudo)
    * [Descrição do Projeto](#descricao-do-projeto)
-   * [Status do projeto](#status-do-projeto)
+   * [Status do Projeto](#status-do-projeto)
    * [Como usar](#como-usar)
    * [Métodos de Aumento Aplicados e Teste](#metodos-aplicados)
-      * [Métodos de aumento](#metodos-de-aumento)
+      * [Métodos de Aumento](#metodos-de-aumento)
       * [Teste](#teste)
    * [Tecnologias](#tecnologias)
    * [Conclusão](#conclusão)
    * [Autor](#autor)
 <!--te-->
 
-# Descrição do projeto
+# Descrição do Projeto
 
 Esse projeto foi desenvolvido para explorar as técnicas de aumento de dados como uma alternativa para solucionar o problema da limitação dos dados, seja pela pouca quantidade de exemplos disponíveis, falta de profissionais capacitados para rotulagem ou necessidade de autorização para seu uso. O algoritmo recebe como entrada um conjunto de dados composto por imagens no formato PNG(Portable Network Graphics), executa os métodos de aumento para cada imagem que compõe o banco e retorna um conjunto de dados expandido.   
 
-# Status do projeto
+# Status do Projeto
 
 - Finalizado :chart:
 
@@ -44,13 +44,16 @@ A função main possui alguns requisitos e detalhes que precisam ser salientados
 
 Esta seção está dividida em dois tópicos, o primeiro é responsável por apresentar as técnicas de aumento utilizadas e alguns esquemas para exemplifica-los. No segundo, temos o resultado da aplicação das técnicas de aumentos pelo algoritmo desta pesquisa para um conjunto de dados limitado.  
 
-## Métodos de aumento
+## Métodos de Aumento
 
 As técnicas de aumento de dados usadas para essa pesquisa são baseadas em transformações geométricas, que permite modificações na forma, tamanho e posição de elementos dentro da imagem, e também transformações fotométricas, que alteram as propriedades das cores na imagem, através de mudanças nos valores dos pixels.
 
 ### Translação
 Na translação a imagem é deslocada ao longo do eixo x ou eixo y, permitindo ir para esquerda (b), direita (c), acima (d) ou abaixo (e). 
 
+<div align="center">
+<img src="https://user-images.githubusercontent.com/56489559/228076566-3209aec4-d19f-48cd-a32e-33f4be1d3d19.png"width="500px"
+</div>
 ![translation](https://user-images.githubusercontent.com/56489559/228076566-3209aec4-d19f-48cd-a32e-33f4be1d3d19.png)
 
 Existem diferentes abordagens para aplicação da translação, pode ocorrer apenas com os deslocamentos citados anteriormente que foi a metodologia aplicada neste trabalho, como também realizar uma combinação entre eles.
