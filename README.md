@@ -108,6 +108,10 @@ Essa técnica pode ser usada para ampliar ou diminuir a imagem aleatoriamente, n
 Nesse método os números decimais negativos são responsáveis por realizar a ampliação da imagem, os valores definidos foram -0,2 e -0,4 que se referem a gerar imagens ampliadas no intervalo fechado que varia entre 20\% e 40\%.
 
 ## Teste
+ 
+ Para execução desse teste foram reunidas 558 imagens micróscopicas de sangue através dos seguintes bancos dispinibilizados na internet:
+ - [ImageBank](http://imagebank.hematology.org/collection/list)
+ - [ALL-IDB](https://scotti.di.unimi.it/all/)
 
 
 # Tecnologias
