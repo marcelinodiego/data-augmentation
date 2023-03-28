@@ -52,8 +52,9 @@ As técnicas de aumento de dados usadas para essa pesquisa são baseadas em tran
 Na translação a imagem é deslocada ao longo do eixo x ou eixo y, permitindo ir para esquerda (b), direita (c), acima (d) ou abaixo (e). 
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/56489559/228076566-3209aec4-d19f-48cd-a32e-33f4be1d3d19.png"width="500px"
-</div>
+    <img src="https://user-images.githubusercontent.com/56489559/228076566-3209aec4-d19f-48cd-a32e-33f4be1d3d19.png"width="500px"
+</a>
+ 
 ![translation](https://user-images.githubusercontent.com/56489559/228076566-3209aec4-d19f-48cd-a32e-33f4be1d3d19.png)
 
 Existem diferentes abordagens para aplicação da translação, pode ocorrer apenas com os deslocamentos citados anteriormente que foi a metodologia aplicada neste trabalho, como também realizar uma combinação entre eles.
