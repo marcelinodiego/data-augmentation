@@ -118,7 +118,7 @@ Nesse método os números decimais negativos são responsáveis por realizar a a
 Logo abaixo está uma figura como uma amostra dos dados de entrada para realização do aumento:
  
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/56489559/228130942-197b651e-21cc-44e8-8a61-f3800ed49d9a.png"width="500px"
+    <img src="https://user-images.githubusercontent.com/56489559/228130942-197b651e-21cc-44e8-8a61-f3800ed49d9a.png"width="600px"
 </p>
  
  Após a execução temos como resultado 5022 imagens no conjunto aumentado dentro da pasta 'aumento_dados', abaixo está uma amostra dessas imagens modificadas: 
@@ -140,7 +140,9 @@ No qual, o número inteiro 8 está associado com a variável N pelo fato de algu
     <img src="https://user-images.githubusercontent.com/56489559/228386200-46883280-e114-406b-830a-181f0b0777c7.png"width="500px"
 </p>
 
+<p align="justify">
 A importância de determinar previamente a quantidade de dados no conjunto final é principalmente por questões de armazenamento, dependendo do tamanho no conjunto inicial talvez não seja viável guardar todos os dados gerados para posteriomente realizar o treinamento, logo isso envolverá decisões se o aumento deverá se feito de modo online ou offline, de acordo com a viabilidade.
+</p>
 
 # Tecnologias
 
