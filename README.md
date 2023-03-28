@@ -92,7 +92,7 @@ Técnica que modifica a imagem fazendo um rotacionamento no sentido horário (b)
 Rotina responsável por alterar a imagem em diferentes níveis de iluminação, resultando em uma imagem mais clara (b) ou mais escura (c), quando comparado com a original (a).
 
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/56489559/228077077-367f009f-4cad-41c9-84e8-24d24806bb13.png"width="600px"
+    <img src="https://user-images.githubusercontent.com/56489559/228077077-367f009f-4cad-41c9-84e8-24d24806bb13.png"width="500px"
 </p>
   
 Esse método recebe um valor delta para gerar imagens no intervalo fechado (-delta, delta), quanto mais próximo de 1.0 for esse valor, mais brilho receberá a imagem e quanto mais distante de 1.0, mais escura será a imagem.
@@ -112,7 +112,22 @@ Nesse método os números decimais negativos são responsáveis por realizar a a
  Para execução desse teste foram reunidas 558 imagens micróscopicas de sangue através dos seguintes bancos dispinibilizados na internet:
  - [ImageBank](http://imagebank.hematology.org/collection/list)
  - [ALL-IDB](https://scotti.di.unimi.it/all/)
+ 
+ É importante ressaltar que mesmo o conjunto de dados inicial sendo pequeno para tarefas de classificação e não possuindo características de generalidade e robustez, é inviável anexar todas as imagens do conjunto inicial ou do conjunto final nessa pesquisa, portanto os exemplos serão dados por meio de amostras.
+ 
+Logo abaixo está uma figura como uma amostra dos dados de entrada para realização do aumento:
+ 
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/56489559/228130942-197b651e-21cc-44e8-8a61-f3800ed49d9a.png"width="500px"
+</p>
+ 
+ Após a execução temos como resultado 5022 imagens no conjunto aumentado dentro da pasta 'aumento_dados', abaixo está uma amostra dessas imagens modificadas: 
+ 
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/56489559/228130976-3300843e-ee56-4415-b14a-6a895aa121bd.png"width="500px"
+</p>
 
+É importante ressaltar que 
 
 # Tecnologias
 
