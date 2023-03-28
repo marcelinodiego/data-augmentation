@@ -52,7 +52,7 @@ As técnicas de aumento de dados usadas para essa pesquisa são baseadas em tran
 Na translação a imagem é deslocada ao longo do eixo x ou eixo y, permitindo ir para esquerda (b), direita (c), acima (d) ou abaixo (e). 
 
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/56489559/228076566-3209aec4-d19f-48cd-a32e-33f4be1d3d19.png"width="500px"
+    <img src="https://user-images.githubusercontent.com/56489559/228076566-3209aec4-d19f-48cd-a32e-33f4be1d3d19.png"width="600px"
 </p>
 
 Existem diferentes abordagens para aplicação da translação, pode ocorrer apenas com os deslocamentos citados anteriormente que foi a metodologia aplicada neste trabalho, como também realizar uma combinação entre eles.
@@ -62,13 +62,13 @@ Existem diferentes abordagens para aplicação da translação, pode ocorrer ape
 Método que realiza espelhamento, girando a imagem em um eixo vertical ou horizontal, movendo linhas e colunas inteiras de pixels. No espelhamento vertical a inversão será no eixo horizontal, sendo (a) à imagem original, temos o resultado dessa manipulação em (b).
 
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/56489559/228076484-66b66fc9-1a53-4687-8524-0be66c1956a7.png"width="500px"
+    <img src="https://user-images.githubusercontent.com/56489559/228076484-66b66fc9-1a53-4687-8524-0be66c1956a7.png"width="600px"
 </p>
 
 Em relação ao espelhamento horizontal a inversão dos valores de pixels ocorre no eixo vertical, gerando uma imagem como mostrado abaixo:
 
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/56489559/228076447-9da5d55d-0d83-4b87-a631-049c94e57a0b.png"width="500px"
+    <img src="https://user-images.githubusercontent.com/56489559/228076447-9da5d55d-0d83-4b87-a631-049c94e57a0b.png"width="600px"
 </p>
 
 ### Rotação
@@ -76,22 +76,26 @@ Em relação ao espelhamento horizontal a inversão dos valores de pixels ocorre
 Técnica que modifica a imagem fazendo um rotacionamento no sentido horário (b) ou anti-horário (c) em um eixo de 1º e 359º. É importante ressaltar que dependendo do ângulo escolhido pode ocorrer perda de informação, por isso fixamos as modificações em ângulos de 90°.
   
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/56489559/228077172-f7242fb5-adf3-48fc-b12d-c364153c0490.png"width="500px"
+    <img src="https://user-images.githubusercontent.com/56489559/228077172-f7242fb5-adf3-48fc-b12d-c364153c0490.png"width="600px"
 </p>
 
 ### Brilho Aleatório
 
 Rotina responsável por alterar a imagem em diferentes níveis de iluminação, resultando em uma imagem mais clara (b) ou mais escura (c), quando comparado com a original (a).
 
-![brightness](https://user-images.githubusercontent.com/56489559/228077077-367f009f-4cad-41c9-84e8-24d24806bb13.png)
-
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/56489559/228077077-367f009f-4cad-41c9-84e8-24d24806bb13.png"width="600px"
+</p>
+  
 Esse método recebe um valor delta para gerar imagens no intervalo fechado (-delta, delta), quanto mais próximo de 1.0 for esse valor, mais brilho receberá a imagem e quanto mais distante de 1.0, mais escura será a imagem.
 
 ### Zoom Aleatório
 
 Essa técnica pode ser usada para ampliar ou diminuir a imagem aleatoriamente, nesta pesquisa apenas a ampliação (b) está sendo utilizada. 
 
-![zoom-in](https://user-images.githubusercontent.com/56489559/228079175-fe6aa2ad-8402-4aec-98a8-c4a7fe2f1127.png).
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/56489559/228079175-fe6aa2ad-8402-4aec-98a8-c4a7fe2f1127.png"width="600px"
+</p>
 
 Nesse método os números decimais negativos são responsáveis por realizar a ampliação da imagem, os valores definidos foram -0,2 e -0,4 que se referem a gerar imagens ampliadas no intervalo fechado que varia entre 20\% e 40\%.
 
