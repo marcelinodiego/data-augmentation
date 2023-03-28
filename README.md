@@ -5,12 +5,12 @@
 Tabela de Conteúdos
 =================
 <!--ts-->
-   * [Tabela de Conteúdos](#tabela-de-conteudo)
-   * [Descrição do Projeto](#descricao-do-projeto)
-   * [Status do Projeto](#status-do-projeto)
+   * [Tabela de Conteúdos](#Tabela-de-conteúdos)
+   * [Descrição do Projeto](#Descrição-do-Projeto)
+   * [Status do Projeto](#Status-do-Projeto)
    * [Como usar](#como-usar)
-   * [Métodos de Aumento Aplicados e Teste](#metodos-de-aumento-aplicados-e-teste)
-      * [Métodos de Aumento](#metodos-de-aumento)
+   * [Métodos de Aumento Aplicados e Teste](#Métodos-de-Aumento-Aplicados-e-Teste)
+      * [Métodos de Aumento](#Métodos-de-Aumento)
       * [Teste](#teste)
    * [Tecnologias](#tecnologias)
    * [Conclusão](#conclusão)
