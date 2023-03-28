@@ -1,4 +1,6 @@
+<p align="center">
 # UM ESTUDO SOBRE DIFERENTES APLICAÇÕES DAS TÉCNICAS DE DATA AUGMENTATION PARA UM CONJUNTO DE DADOS LIMITADO
+</p>
 
 Tabela de Conteúdos
 =================
@@ -35,16 +37,14 @@ PadronizacaoFormato -  Função auxiliar responsável por converter o formato da
 
 main - Função principal que realiza o aumento de dados propriamente dito.
 
-A função PadronizacaoFormato pode ser executada da seguinte forma:
+A função 'PadronizacaoFormato' pode ser executada da seguinte forma:
 - Recebe como entrada imagens que estejam em qualquer formato dentro de uma pasta como nome 'ImagensOriginais';
 - Caso não exista, criar uma pasta com o nome 'ImagensPadronizadas' para receber as imagens com formato modificado. 
 
-A função main possui alguns requisitos e detalhes que precisam ser salientados para sua correta execucação:
+A função 'main' possui alguns requisitos e detalhes que precisam ser salientados para sua correta execucação:
 - Recebe imagens apenas no formato PNG;
 - As imagens de entrada precisam estar numa pasta com nome 'ImagensPadronizadas';
 - Caso não exista, criar uma pasta com nome 'aumento_dados' para receber as novas imagens geradas.
-
-<\p>
   
 # Métodos de Aumento Aplicados e Teste
 
@@ -53,6 +53,8 @@ Esta seção está dividida em dois tópicos, o primeiro é responsável por apr
 ## Métodos de Aumento
 
 As técnicas de aumento de dados usadas para essa pesquisa são baseadas em transformações geométricas, que permite modificações na forma, tamanho e posição de elementos dentro da imagem, e também transformações fotométricas, que alteram as propriedades das cores na imagem, através de mudanças nos valores dos pixels.
+
+</p>
 
 ### Translação
 Na translação a imagem é deslocada ao longo do eixo x ou eixo y, permitindo ir para esquerda (b), direita (c), acima (d) ou abaixo (e). 
