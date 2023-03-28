@@ -134,7 +134,7 @@ Também é importante salientar que a forma como o algoritmo foi estruturado é 
 </p>
 
 <p align="justify">
-No qual, o número inteiro 8 está associado com a variável N pelo fato de alguns métodos de aumento serem aplicados mais de uma vez, por exemplo, o espelhamento é feito de maneira horizontal e vertical, algo semelhante ocorre com os métodos de rotação e translação. Enquanto, o segundo termo N se refere aos dados originais, sem qualquer aumento que são anexadas ao conjunto final. Por fim, para o teste realizado nesssa pesquisa, temos aplicação do valor que corresponde a quantidade de dados no conjunto inicial na fórmula:
+No qual, o número inteiro 8 está associado com a variável N pelo fato de alguns métodos de aumento serem aplicados mais de uma vez, por exemplo, o espelhamento é feito de maneira horizontal e vertical, algo semelhante ocorre com os métodos de rotação e translação. Enquanto, o segundo termo N se refere aos dados originais, sem qualquer aumento que são anexadas ao conjunto final. Por fim, para o teste realizado nessa pesquisa, temos aplicação do valor que corresponde a quantidade de dados no conjunto inicial na fórmula:
 </p>
 <p align="center">
     <img src="https://user-images.githubusercontent.com/56489559/228386200-46883280-e114-406b-830a-181f0b0777c7.png"width="500px"
