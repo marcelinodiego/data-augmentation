@@ -56,16 +56,6 @@ As técnicas de aumento de dados usadas para essa pesquisa são baseadas em tran
 
 </p>
 
-### Translação
-Na translação a imagem é deslocada ao longo do eixo x ou eixo y, permitindo ir para esquerda (b), direita (c), acima (d) ou abaixo (e). 
-
-<p align="center">
-    <img src="https://user-images.githubusercontent.com/56489559/228076566-3209aec4-d19f-48cd-a32e-33f4be1d3d19.png"width="600px"
-</p>
-
-Existem diferentes abordagens para aplicação da translação, pode ocorrer apenas com os deslocamentos citados anteriormente que foi a metodologia aplicada neste trabalho, como também realizar uma combinação entre eles.
-
-  
 ### Espelhamento
 Método que realiza espelhamento, girando a imagem em um eixo vertical ou horizontal, movendo linhas e colunas inteiras de pixels. No espelhamento vertical a inversão será no eixo horizontal, sendo (a) à imagem original, temos o resultado dessa manipulação em (b).
 
@@ -87,15 +77,14 @@ Técnica que modifica a imagem fazendo um rotacionamento no sentido horário (b)
     <img src="https://user-images.githubusercontent.com/56489559/228077172-f7242fb5-adf3-48fc-b12d-c364153c0490.png"width="600px"
 </p>
 
-### Brilho Aleatório
-
-Rotina responsável por alterar a imagem em diferentes níveis de iluminação, resultando em uma imagem mais clara (b) ou mais escura (c), quando comparado com a original (a).
+### Translação
+Na translação a imagem é deslocada ao longo do eixo x ou eixo y, permitindo ir para esquerda (b), direita (c), acima (d) ou abaixo (e). 
 
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/56489559/228077077-367f009f-4cad-41c9-84e8-24d24806bb13.png"width="500px"
+    <img src="https://user-images.githubusercontent.com/56489559/228076566-3209aec4-d19f-48cd-a32e-33f4be1d3d19.png"width="600px"
 </p>
-  
-Esse método recebe um valor delta para gerar imagens no intervalo fechado (-delta, delta), quanto mais próximo de 1.0 for esse valor, mais brilho receberá a imagem e quanto mais distante de 1.0, mais escura será a imagem.
+
+Existem diferentes abordagens para aplicação da translação, pode ocorrer apenas com os deslocamentos citados anteriormente que foi a metodologia aplicada neste trabalho, como também realizar uma combinação entre eles.
 
 ### Zoom Aleatório
 
@@ -106,6 +95,64 @@ Essa técnica pode ser usada para ampliar ou diminuir a imagem aleatoriamente, n
 </p>
 
 Nesse método os números decimais negativos são responsáveis por realizar a ampliação da imagem, os valores definidos foram -0,2 e -0,4 que se referem a gerar imagens ampliadas no intervalo fechado que varia entre 20\% e 40\%.
+
+### Corte Aleatório
+
+<p align="justify">
+Método que seleciona uma região aleatória da imagem original, parte destacada em (a) e realiza o corte (b) produzindo uma nova imagem,
+portanto a imagem gerada é um subconjunto da imagem original. Para o correto funcionamento desta função deve ser analisado se a dimensão do corte é menor que a
+dimensão da imagem original, no nosso caso, como o conjunto de dados é composto
+por imagens retangulares definimos o corte para matrizes quadradas.
+</p>
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/56489559/250139456-4117d0f1-5e05-440b-876e-7cecd7f082f4.png"width="500px"
+</p>
+
+<p align="justify">
+Na chamada desse método selecionamos um tamanho de corte (400x400) que estivesse apto para atuar em todo banco de dados, mostrado na Figura 11. Mesmo
+que exista uma semelhança com a função de zoom aleatório essa rotina sempre vai retornar uma imagem quadrada, mesmo quando ambas atuarem na mesma região vai
+ter diferenças entre as imagens geradas.
+</p>
+
+### Brilho Aleatório
+
+Rotina responsável por alterar a imagem em diferentes níveis de iluminação, resultando em uma imagem mais clara (b) ou mais escura (c), quando comparado com a original (a).
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/56489559/228077077-367f009f-4cad-41c9-84e8-24d24806bb13.png"width="500px"
+</p>
+  
+Esse método recebe um valor delta para gerar imagens no intervalo fechado (-delta, delta), quanto mais próximo de 1.0 for esse valor, mais brilho receberá a imagem e quanto mais distante de 1.0, mais escura será a imagem.
+
+### Contraste
+
+<p align="justify">
+Técnica que realiza mudanças no contraste da imagem em cada canal RGB por meio de um fator aleatório, ou seja, as características entre as áreas mais claras
+e mais escuras na imagem ficam mais visíveis, exemplificado em (b). Portanto, diferente do método anterior o ajuste não ocorre apenas no brilho da imagem, mas
+também no canal de cores.
+</p>
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/56489559/250139410-8d4df897-6f9e-4f95-a636-a657f836df1d.png"width="600px"
+</p>
+
+<p align="justify">
+Definimos como limite superior e inferior para realizar a mudança de contraste o intervalo [0.1, 1.5] esses valores foram usados porque durante a sequência de testes as diferenças entre as regiões mais claras e escuras dentro da imagem já estavam bem perceptíveis.
+</p>
+
+### Ruído Gaussiano
+
+<p align="justify">
+Técnica que adiciona ruído na imagem por meio de alterações referentes ao brilho e a cor através de uma distribuição normal. A intensidade do ruído é definida
+pelo valor do desvio padrão, ou seja, as mudanças ficam mais visíveis. Temos em (a) um exemplo de uma imagem antes da aplicação do ruído gaussiano e em (b) após aplicação.
+</p>
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/56489559/250139340-254baac7-68b4-4109-92ca-22fee261a2ed.png"width="600px"
+</p>
+
+Em nossa pesquisa utilizamos o desvio padrão igual 25, o período de testes mostrou que valores abaixo desse resultam em imagens com ruído bem sútil. 
 
 ## Teste
  
