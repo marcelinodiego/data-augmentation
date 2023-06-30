@@ -177,7 +177,7 @@ Logo abaixo está uma figura como uma amostra dos dados de entrada para realiza�
 Também é importante salientar que a forma como o algoritmo foi estruturado é possível conhecer o tamanho do conjunto final antes da execução, basta substituir a variável N, que representa o tamanho do banco de dados original na fórmula abaixo: 
 
 <p align="center">
-    <img src="[https://user-images.githubusercontent.com/56489559/228386437-a61e585f-9a77-4390-ae76-eefbd72d7ab5.png](https://user-images.githubusercontent.com/56489559/250131076-6e14e340-d014-4eb2-92a5-4dd514a6b427.png)"width="500px"
+    <img src="https://user-images.githubusercontent.com/56489559/250131076-6e14e340-d014-4eb2-92a5-4dd514a6b427.png"width="500px"
 </p>
 
 <p align="justify">
