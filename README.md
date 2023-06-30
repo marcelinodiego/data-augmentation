@@ -121,7 +121,7 @@ Logo abaixo está uma figura como uma amostra dos dados de entrada para realiza�
     <img src="https://user-images.githubusercontent.com/56489559/228130942-197b651e-21cc-44e8-8a61-f3800ed49d9a.png"width="600px"
 </p>
  
- Após a execução temos como resultado 5022 imagens no conjunto aumentado dentro da pasta 'aumento_dados', abaixo está uma amostra dessas imagens modificadas: 
+ Após a execução temos como resultado 6708 imagens no conjunto aumentado dentro da pasta 'aumento_dados', abaixo está uma amostra dessas imagens: 
  
 <p align="center">
     <img src="https://user-images.githubusercontent.com/56489559/228130976-3300843e-ee56-4415-b14a-6a895aa121bd.png"width="500px"
@@ -130,14 +130,14 @@ Logo abaixo está uma figura como uma amostra dos dados de entrada para realiza�
 Também é importante salientar que a forma como o algoritmo foi estruturado é possível conhecer o tamanho do conjunto final antes da execução, basta substituir a variável N, que representa o tamanho do banco de dados original na fórmula abaixo: 
 
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/56489559/228386437-a61e585f-9a77-4390-ae76-eefbd72d7ab5.png"width="500px"
+    <img src="[https://user-images.githubusercontent.com/56489559/228386437-a61e585f-9a77-4390-ae76-eefbd72d7ab5.png](https://user-images.githubusercontent.com/56489559/250131076-6e14e340-d014-4eb2-92a5-4dd514a6b427.png)"width="500px"
 </p>
 
 <p align="justify">
 No qual, o número inteiro 8 está associado com a variável N pelo fato de alguns métodos de aumento serem aplicados mais de uma vez, por exemplo, o espelhamento é feito de maneira horizontal e vertical, algo semelhante ocorre com os métodos de rotação e translação. Enquanto, o segundo termo N se refere aos dados originais, sem qualquer aumento que são anexadas ao conjunto final. Por fim, para o teste realizado nessa pesquisa, temos aplicação do valor que corresponde a quantidade de dados no conjunto inicial na fórmula:
 </p>
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/56489559/228386200-46883280-e114-406b-830a-181f0b0777c7.png"width="500px"
+    <img src="[https://user-images.githubusercontent.com/56489559/250128821-deb4051b-efc3-4f93-bff7-9f30554c526f.png](https://user-images.githubusercontent.com/56489559/250128821-deb4051b-efc3-4f93-bff7-9f30554c526f.png)"width="500px"
 </p>
 
 <p align="justify">
