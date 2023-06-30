@@ -110,7 +110,7 @@ por imagens retangulares definimos o corte para matrizes quadradas.
 </p>
 
 <p align="justify">
-Na chamada desse método selecionamos um tamanho de corte (400x400) que estivesse apto para atuar em todo banco de dados, mostrado na Figura 11. Mesmo
+Na chamada desse método selecionamos um tamanho de corte (400x400) que estivesse apto para atuar em todo banco de dados. Mesmo
 que exista uma semelhança com a função de zoom aleatório essa rotina sempre vai retornar uma imagem quadrada, mesmo quando ambas atuarem na mesma região vai
 ter diferenças entre as imagens geradas.
 </p>
@@ -171,7 +171,7 @@ Logo abaixo está uma figura como uma amostra dos dados de entrada para realiza�
  Após a execução temos como resultado 6708 imagens no conjunto aumentado dentro da pasta 'aumento_dados', abaixo está uma amostra dessas imagens: 
  
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/56489559/228130976-3300843e-ee56-4415-b14a-6a895aa121bd.png"width="500px"
+    <img src="https://user-images.githubusercontent.com/56489559/250135807-92586526-2329-45a2-add0-d8d05232c5b0.png"width="500px"
 </p>
 
 Também é importante salientar que a forma como o algoritmo foi estruturado é possível conhecer o tamanho do conjunto final antes da execução, basta substituir a variável N, que representa o tamanho do banco de dados original na fórmula abaixo: 
@@ -204,7 +204,7 @@ As seguintes ferramentas foram utilizadas na construção desse projeto:
 
 # Conclusão
 <p align="justify">
-Neste estudo, foi proposto a exploração de métodos que realizam o aumento sintético de dados em um conjunto limitado composto por imagens microscópicas de sangue. Nosso experimento aumentou a quantidade de dados no conjunto de 558 imagens para 5022 imagens. Deixamos como trabalhos futuros a adição de mais métodos de \emph{Data Augmentation} como filtro gaussiano e contraste aleatório, para aumentar a variedade dos dados. Também a implementação de uma rede neural convolucional para identificação de células cancerígenas no conjunto de dados produzido nessa pesquisa, avaliar o impacto do aumento de dados em um ambiente com restrição de dados e comparar os resultados alcançados com trabalhos semelhantes encontrados na literatura. 
+Neste estudo, foi proposto a exploração de métodos que realizam o aumento sintético de dados em um conjunto limitado composto por imagens microscópicas de sangue. Nosso experimento aumentou a quantidade de dados no conjunto de 559 imagens para 6708 imagens. Deixamos como trabalhos futuros a adição de mais métodos de \emph{Data Augmentation} como filtro gaussiano e contraste aleatório, para aumentar a variedade dos dados. Também a implementação de uma rede neural convolucional para identificação de células cancerígenas no conjunto de dados produzido nessa pesquisa, avaliar o impacto do aumento de dados em um ambiente com restrição de dados e comparar os resultados alcançados com trabalhos semelhantes encontrados na literatura. 
 </p>
 
 # Autor
