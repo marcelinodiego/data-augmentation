@@ -47,13 +47,14 @@ A função 'main' possui alguns requisitos e detalhes que precisam ser salientad
 - Caso não exista, criar uma pasta com nome 'aumento_dados' para receber as novas imagens geradas.
   
 # Métodos de Aumento Aplicados e Teste
-
+<p align="justify">
 Esta seção está dividida em dois tópicos, o primeiro é responsável por apresentar as técnicas de aumento utilizadas e alguns esquemas para exemplifica-los. No segundo, temos o resultado da aplicação das técnicas de aumentos pelo algoritmo desta pesquisa para um conjunto de dados limitado.  
+</p>
 
 ## Métodos de Aumento
 
+<p align="justify">
 As técnicas de aumento de dados usadas para essa pesquisa são baseadas em transformações geométricas, que permite modificações na forma, tamanho e posição de elementos dentro da imagem, e também transformações fotométricas, que alteram as propriedades das cores na imagem, através de mudanças nos valores dos pixels.
-
 </p>
 
 ### Espelhamento
@@ -204,7 +205,7 @@ As seguintes ferramentas foram utilizadas na construção desse projeto:
 
 # Conclusão
 <p align="justify">
-Neste estudo, foi proposto a exploração de métodos que realizam o aumento sintético de dados em um conjunto limitado composto por imagens microscópicas de sangue. Nosso experimento aumentou a quantidade de dados no conjunto de 559 imagens para 6708 imagens. Deixamos como trabalhos futuros a adição de mais métodos de \emph{Data Augmentation} como filtro gaussiano e contraste aleatório, para aumentar a variedade dos dados. Também a implementação de uma rede neural convolucional para identificação de células cancerígenas no conjunto de dados produzido nessa pesquisa, avaliar o impacto do aumento de dados em um ambiente com restrição de dados e comparar os resultados alcançados com trabalhos semelhantes encontrados na literatura. 
+Neste estudo, foi proposto a exploração de métodos que realizam o aumento sintético de dados em um conjunto limitado composto por imagens microscópicas de sangue. Nosso experimento aumentou a quantidade de dados no conjunto de 559 imagens para 6708 imagens. Deixamos como trabalhos futuros a adição de mais métodos de Data Augmentation como filtro gaussiano e contraste aleatório, para aumentar a variedade dos dados. Também a implementação de uma rede neural convolucional para identificação de células cancerígenas no conjunto de dados produzido nessa pesquisa, avaliar o impacto do aumento de dados em um ambiente com restrição de dados e comparar os resultados alcançados com trabalhos semelhantes encontrados na literatura. 
 </p>
 
 # Autor
